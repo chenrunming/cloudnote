@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/details/details",
+    "pages/newnote/newnote",
+    "pages/topic_list/topic_list",
+    "pages/addTopic/addTopic",
+    "pages/topics/topics"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4169E1",
+    "navigationBarTitleText": "CloudNote",
+    "navigationBarTextStyle": "white" 
+  },
+  "tabBar": {
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "个人"
+      },
+      {
+        "pagePath": "pages/topics/topics",
+        "text": "话题"
+      }
+    ]
+  }
+}
